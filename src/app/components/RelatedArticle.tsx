@@ -1,5 +1,3 @@
-
-
 const RelatedArticle = () => {
   return <div>RelatedArticle</div>;
 };
