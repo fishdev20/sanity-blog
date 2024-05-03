@@ -15,8 +15,8 @@ const TableOfContent = ({ headings }: { headings: any }) => {
   };
 
   return (
-    <div className="sticky top-32 mx-auto w-full rounded-md border-2 bg-white/30 shadow-md backdrop-blur-sm dark:bg-gray-700/30">
-      <h2 className="bg:amber-50 mb-5 border-b p-2 text-center text-xl font-bold dark:bg-gray-800">
+    <div className="sticky top-32 mx-auto w-full rounded-md border-2 bg-white/30 shadow-md dark:bg-gray-700/30">
+      <h2 className="bg:amber-50 mb-5 border-b p-2 text-center text-xl font-bold dark:bg-gray-700">
         Table of Contents
       </h2>
       <div className="p-4">

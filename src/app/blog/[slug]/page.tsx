@@ -191,7 +191,11 @@ const BlogArticle = async ({ params }: { params: any }) => {
 
         <Popover>
           <PopoverTrigger className="fixed bottom-6 right-6 z-50 block md:hidden">
-            <Button variant="outline" size="icon" className="bg-white/30 backdrop-blur-lg">
+            <Button
+              variant="outline"
+              size="icon"
+              className="bg-white/30 backdrop-blur-[10px] backdrop-filter"
+            >
               <MdOutlineFormatListBulleted height={'20px'} width={'20px'} />
             </Button>
           </PopoverTrigger>
@@ -200,7 +204,7 @@ const BlogArticle = async ({ params }: { params: any }) => {
             align="end"
             sideOffset={4}
             alignOffset={50}
-            className="ml-10 w-full bg-white/30 p-0 backdrop-blur-sm dark:bg-gray-800/30"
+            className="ml-10 w-full bg-white/30 p-0 backdrop-blur-[10px] backdrop-filter dark:bg-gray-800/30"
           >
             <TableOfContent headings={data.headings} />
           </PopoverContent>

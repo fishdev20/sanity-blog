@@ -55,6 +55,8 @@
   @layer base {
     * {
       @apply border-border;
+      --tw-backdrop-sepia:  ;
+      --will-be-deleted: ; 
     }
     body {
       @apply bg-background text-foreground;
